@@ -3,4 +3,4 @@
 
 Aprendendo a criar sites e gerenciando meus repositórios.
 
-<a href="https://marcosviniciuscolares.github.io/html-css/"> Executar exercicio 001.
+<a href="https://marcosviniciuscolares.github.io/html-css/excercicios/ex001/index.html"> Executar exercicio 001.
