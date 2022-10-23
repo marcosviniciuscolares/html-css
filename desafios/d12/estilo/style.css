@@ -1,1 +1,28 @@
-@charset
+@charset "utf-8";
+
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center
+}
+
+header h1{
+    font-variant: small-caps;
+    padding-top: 10px;
+}
+
+header p{
+    padding-bottom: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a.hover{
+    text-decoration: underline;
+    background-color: blue;
+}
