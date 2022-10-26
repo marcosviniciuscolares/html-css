@@ -57,6 +57,10 @@ section{
     font-size: 2em;
 }
 
+section p{
+    padding-bottom: 2em;
+}
+
 
 section.normal{
     background-color: white;
@@ -64,8 +68,11 @@ section.normal{
 }
 
 section.imagem{
-    background-color: rgba(0, 0, 0, 0.336);
+    background-color: rgba(0, 0, 0, 0.445);
     color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.705);
+    background-attachment: fixed;
 }
 
 section.imagem p{
@@ -73,6 +80,16 @@ section.imagem p{
     width: 400px;
 }
 
+section#img01{
+    background-image: url("../imagens/joana.jfif");
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url("../imagens/carta.jpg");
+    background-size: cover;
+}
 
 
 
