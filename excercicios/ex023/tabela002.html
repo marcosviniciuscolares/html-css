@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: rgba(0, 0, 0, 0.397);
+            color: white;
+        }
+
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 390 299</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">19 000 459</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">30 899 456</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">8 990 456</td>
+            </tr>
+            <tr>
+                <td>Amapa</td>
+                <td class="num">3 994 569</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">1 000 234</td>
+            </tr>
+            <tr>
+                <td>Mato grosso</td>
+                <td class="num">9 443 567</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">4 000 657</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">3 998 732</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">5 997 867</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total população</th>
+                <td class="num"><strong>130 889 570</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
