@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas reais</title>
+    <style>
+        table{
+            width: 400px;
+            border-collapse: collapse;          
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        tr td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+    <table>
+        <caption>Filmes favoritos</caption>
+        <thead>
+            <tr>
+                <td scope="col">Grupos</td>
+                <td scope="col">Nomes</td>
+                <td colspan="3" scope="colgroup">Filmes</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3" scope="rowgroup">Mulheres</td>
+                <td>Maria Santo</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz souza</td>
+                <td>Taxi driver</td>
+                <td>Hulk</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Joana silva</td>
+                <td>Vingadores</td>
+                <td>Oblivion</td>
+                <td>Big her0</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3" scope="rowgroup">Homens</td>
+                <td>Bruno mendonza</td>
+                <td>Intocaveis</td>
+                <td>Velozes</td>
+                <td>Resident</td>
+            </tr>
+            <tr>
+                <td>Gabriel silva</td>
+                <td>Walle</td>
+                <td>Django</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>João silveira</td>
+                <td>Senhor dos anéis</td>
+                <td>O hobbit</td>
+                <td>G-Force</td>
+            </tr>
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" scope="col">total</td>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
