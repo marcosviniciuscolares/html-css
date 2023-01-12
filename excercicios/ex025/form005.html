@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando checkbox</title>
+</head>
+<body>
+    <h1>Exercício de checkbox</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="isxmal"><input type="radio" name="sx" id="isxmal">Homem</label> <br>
+            <label for="isxfem"><input type="radio" name="sx" id="isxfem">Mulher</label>
+        </fieldset>
+      <fieldset>
+        <legend>Esportes</legend>
+        <label for="ifutebol"><input type="checkbox" name="futebol" id="ifutebol">futebol <br></label>
+        <label for="iAuto"><input type="checkbox" name="Auto" id="iAuto">Automobilismo <br></label>
+        <label for="iNata"><input type="checkbox" name="Nata" id="iNata">Natação <br></label>
+        <label for="iCorr"><input type="checkbox" name="Corr" id="iCorr">Corrida <br></label>
+        <label for="iTen"><input type="checkbox" name="Ten" id="iTen">Tênis</label>
+      </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
