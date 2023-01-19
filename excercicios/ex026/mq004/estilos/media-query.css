@@ -2,6 +2,83 @@
 
 /* Todas as outras medias */
 
+/* 
+
+Typicla device breakpoints
+--------------------------
+
+Pequenas telas: 600px
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Pc: 992px até 1200px
+Grandes telas: acima de 1200px
+
+*/
+
 @media print{
-    
+    *{
+        font-family: 'Courier New' , Courier, monospace;
+    }
+
+    body{
+       background-image: url(../imagens/back-print.jpg);
+    }
+
+    main{
+        border: 2px solid black;
+    }
+
+    main::after{
+        content: 'Funciona!!';
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    img#fone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: block;}
+    img#pc{display: none;}
+    img#tv{display: none;}    
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+  body{
+    background-image: url(../imagens/back-tablet.jpg);
+  }
+
+  img#fone{display: none;}
+  img#tablet{display: block;}
+  img#print{display: none;}
+  img#pc{display: none;}
+  img#tv{display: none;}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#fone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: block;}
+    img#tv{display: none;}
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+
+
+    img#fone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: block;}
 }
