@@ -1,6 +1,2 @@
-# html-css
- Curso de HTML5 e CSS3
-
-Aprendendo a criar sites e gerenciando meus repositórios.
-
-<a href="https://marcosviniciuscolares.github.io/html-css/excercicios/ex001/index.html"> Executar exercicio 001.
+# Curso de HTML5 e CSS3 - HTML5 and CSS3 course.
+## Eu tenho outro repositório onde eu guardo projetos reais - I have another repository where i keep real projects:   [Avantiermv](https://github.com/Avantiermv)
