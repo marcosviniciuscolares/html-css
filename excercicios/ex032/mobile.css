@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+header{
+    flex-flow: column wrap;
+}
+
+nav{
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 200px;
+}
+
+nav > a {
+    flex: auto;
+    width: 100%;
+}
