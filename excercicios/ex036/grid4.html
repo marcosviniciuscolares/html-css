@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <style>
+        .container{
+            border: 2px seagreen solid;
+            height: 500px;
+            padding: 10px;
+
+
+            display: grid;
+            grid-template: repeat(3, 100px) / repeat(4, 1fr);
+            gap: 20px;
+        }
+        
+            .caixa1{
+                background-color: aqua;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                grid-column-start: 1;
+                grid-column-end: 5;
+            }
+
+            .caixa2{
+                background-color: blueviolet;
+                grid-row-start: 2;
+                grid-row-end: 4;
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+
+            .caixa3{
+                background-color: darkblue;
+                grid-row-start: 2;
+                grid-row-end: 4;
+                grid-column-start: 3;
+                grid-column-end: 5;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="caixa1">Caixa 1</div>
+        <div class="caixa2">Caixa 2</div>
+        <div class="caixa3">Caixa 3</div>
+    </div>
+</body>
+</html>
